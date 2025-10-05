@@ -14,7 +14,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           <div>
             <img
-              src="/images/1pro.jpg"
+              src={`${import.meta.env.BASE_URL}images/casualimg.png`}
               alt="Thiyagarajan V"
               className="w-full h-auto rounded-2xl shadow-2xl"
             />

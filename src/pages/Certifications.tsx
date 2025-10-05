@@ -7,7 +7,7 @@ export default function Certifications() {
       issuer: 'freeCodeCamp',
       date: 'September 2025',
       hours: '300 hours of work',
-      image: '/images/SCIENTIFIC PROGR..PYTHON.png',
+      image:  '/images/python.png',
       certificate: '/documents/thiyagarajan_varadharajan_resume.pdf',
       description:
         'Comprehensive certification covering Python fundamentals, data structures, algorithms, and scientific computing libraries.',
@@ -18,7 +18,7 @@ export default function Certifications() {
       issuer: 'LinkedIn Learning',
       date: 'September 2025',
       hours: '9 hours 17 minutes',
-      image: null,
+      image: '/images/django.png',
       certificate: '/documents/CertificateOfCompletion_Become a Django Developer.pdf',
       description:
         'Complete learning path covering Django framework, MVT architecture, ORM, REST APIs, and deployment strategies.',
@@ -29,12 +29,23 @@ export default function Certifications() {
       issuer: 'Outskill',
       date: '2025',
       hours: null,
-      image: '/images/gen ai cert.png',
+      image: '/images/genaicert.png',
       certificate: null,
       description:
         'Advanced certification in Generative AI covering LLMs, prompt engineering, and AI application development.',
       skills: ['Generative AI', 'LLMs', 'Prompt Engineering', 'AI Development']
-    }
+    },
+    {
+      title: 'natural language generation with python',
+      issuer: 'LinkedIn Learning',
+      date: 'September 2025',
+      hours: '1 hours 49 minutes',
+      image: '/images/nlp.png',
+      certificate: '/documents/',
+      description:
+        'Complete learning path covering natural language generation , python programming',
+      skills: ['NLP', 'Python', 'Web Development']
+    },
   ];
 
   return (
@@ -61,7 +72,7 @@ export default function Certifications() {
               {cert.image && (
                 <div className="bg-gray-100 p-6">
                   <img
-                    src={cert.image}
+                    src={`${import.meta.env.BASE_URL}${cert.image}`}
                     alt={cert.title}
                     className="w-full h-64 object-contain"
                   />
@@ -136,10 +147,10 @@ export default function Certifications() {
               Next: Advanced NLP Specialization
             </span>
             <span className="px-6 py-3 bg-white rounded-lg shadow-md font-medium text-gray-800">
-              Next: AWS Solutions Architect
+              Next: meta backend
             </span>
             <span className="px-6 py-3 bg-white rounded-lg shadow-md font-medium text-gray-800">
-              Next: Kubernetes Certification
+              Next: large language models
             </span>
           </div>
         </div>

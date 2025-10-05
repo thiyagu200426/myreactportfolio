@@ -13,8 +13,8 @@ export default function Projects() {
         'Simulates real-time medical interactions',
         'Deployed on Replit for seamless testing and demonstration'
       ],
-      github: 'https://github.com/thiyagu200426',
-      demo: 'https://replit.com/@thiyagu200426'
+      github: 'https://github.com/thiyagu200426/MedAssistPro-AI-virtual-assistance',
+      demo: 'https://www.linkedin.com/posts/thiyagarajan-v-9b3b34373_ai-chatbot-healthcare-activity-7379898844140011520-TPgK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyJx5cBfFLQDzu2NCYO0ksUeNnAThTfg3w'
     },
     {
       title: 'Spatial Sound Scene Analysis',
@@ -27,7 +27,7 @@ export default function Projects() {
         'Automatically reduces device volume by 50% during critical alerts',
         'Performance tested and validated on Replit'
       ],
-      github: 'https://github.com/thiyagu200426',
+      github: 'https://github.com/thiyagu200426/spartial-sound-scene-analysis',
       demo: 'https://replit.com/@thiyagu200426'
     },
     {
@@ -41,7 +41,8 @@ export default function Projects() {
         'Interactive user interface with React',
         'Optimized backend queries and efficient state management'
       ],
-      github: 'https://github.com/thiyagu200426'
+      github: 'https://github.com/thiyagu200426/online-organic-food-order',
+      demo: 'https://replit.com/@thiyagu200426'
     }
   ];
 

@@ -40,7 +40,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                 <img
-                  src="/images/1pro.jpg"
+                  src={`${import.meta.env.BASE_URL}images/1pro.jpg`}
                   alt="Thiyagarajan V"
                   className="relative w-80 h-80 object-cover rounded-full border-8 border-white shadow-2xl"
                 />

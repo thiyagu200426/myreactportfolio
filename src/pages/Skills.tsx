@@ -140,7 +140,6 @@ export default function Skills() {
               'MVT Architecture',
               'Data Structures & Algorithms',
               'Version Control (Git)',
-              'Agile Methodology',
               'Code Review'
             ].map((practice, index) => (
               <div
@@ -164,10 +163,9 @@ export default function Skills() {
             {[
               'Advanced NLP',
               'Transformer Models',
-              'Vector Databases',
-              'RAG Systems',
+              'Vector Databases',,
               'Fine-tuning LLMs',
-              'Kubernetes',
+              'large language model',
               'GraphQL'
             ].map((item, index) => (
               <span
