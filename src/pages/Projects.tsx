@@ -42,7 +42,7 @@ export default function Projects() {
         'Optimized backend queries and efficient state management'
       ],
       github: 'https://github.com/thiyagu200426/online-organic-food-order',
-      demo: 'https://replit.com/@thiyagu200426'
+      demo: 'https://www.linkedin.com/posts/thiyagarajan-v-9b3b34373_webdevelopment-python-reactjs-activity-7380955241401389056-vCMU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyJx5cBfFLQDzu2NCYO0ksUeNnAThTfg3w'
     }
   ];
 
