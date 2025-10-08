@@ -123,6 +123,15 @@ export default function About() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">HackerRank</h3>
               <p className="text-green-600 hover:underline">@thiyagu2004nanni</p>
             </a>
+             <a
+              href="https://www.w3profile.com/THIYAGARAJANvaradharajan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-200"
+            >
+              <h3 className="text-xl font-bold text-gray-900 mb-2">W3schools</h3>
+              <p className="text-green-600 hover:underline">@THIYAGARAJANvaradharajan</p>
+            </a>
           </div>
         </div>
       </div>

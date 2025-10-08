@@ -1,8 +1,11 @@
 import { ArrowRight, Code, Database, Brain } from 'lucide-react';
 import { Link } from '../router';
+import { FaGithub, FaLinkedin, FaMedium, FaInstagram, FaXTwitter, FaDev, FaStackOverflow, FaThreads } from "react-icons/fa6";
+
 
 export default function Home() {
   return (
+
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-blue-50 to-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,7 +13,7 @@ export default function Home() {
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Hi, I'm{' '}
-                <span className="text-blue-600">Thiyagarajan V</span>
+                <span className="text-blue-600">Thiyagarajan</span>
               </h1>
               <p className="text-xl text-gray-600">
                 Aspiring AI Engineer & Python Full Stack Developer
@@ -49,6 +52,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,6 +100,144 @@ export default function Home() {
                 optimizing queries for performance.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-gradient-to-br from-blue-50 to-gray-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">
+            explore my profiles here 👇
+          </h2>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 justify-items-center">
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center">
+                <FaGithub className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">GitHub</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/thiyagarajan-v-9b3b34373/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                <FaLinkedin className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">LinkedIn</h3>
+                <p className="text-sm text-gray-600">Thiyagarajan V</p>
+              </div>
+            </a>
+
+            {/* Medium */}
+            <a
+              href="https://medium.com/@thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
+                <FaMedium className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">Medium</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* Instagram */}
+            <a
+              href="https://instagram.com/thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <FaInstagram className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">Instagram</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* X (Twitter) */}
+            <a
+              href="https://x.com/thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
+                <FaXTwitter className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">X</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* Dev.to */}
+            <a
+              href="https://dev.to/thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
+                <FaDev className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">Dev.to</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* Stack Overflow */}
+            <a
+              href="https://meta.stackoverflow.com/users/31647359/thiyagarajan-varadharajan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
+                <FaStackOverflow className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">Stack Overflow</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
+
+            {/* Threads */}
+            <a
+              href="https://www.threads.net/@thiyagu26v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:-translate-y-1 border border-gray-200 w-full max-w-xs"
+            >
+              <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
+                <FaThreads className="text-white" size={24} />
+              </div>
+              <div>
+                <h3 className="font-bold text-gray-900">Threads</h3>
+                <p className="text-sm text-gray-600">@thiyagu26v</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>

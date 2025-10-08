@@ -187,6 +187,8 @@ export default function Contact() {
                     <p className="text-sm text-gray-600">Thiyagarajan V</p>
                   </div>
                 </a>
+
+                
               </div>
             </div>
 
