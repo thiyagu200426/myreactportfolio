@@ -2,13 +2,24 @@ import { Award, ExternalLink, Download } from 'lucide-react';
 
 export default function Certifications() {
   const certifications = [
+     {
+      title: 'Introduction to Back-End Development',
+      issuer: 'Meta',
+      date: '2025',
+      hours: null,
+      image: '/images/meta.png',
+      certificate: 'https://www.coursera.org/account/accomplishments/verify/LT0QR15C3775',
+      description:
+        'How the back-end connects with the front-end Working with servers, databases, and APIs The fundamentals of programming for web applications',
+      skills: ['backend development','conections','API development']
+    },
     {
       title: 'Scientific Computing with Python',
       issuer: 'freeCodeCamp',
       date: 'September 2025',
       hours: '300 hours of work',
       image:  '/images/python.png',
-      certificate: '/documents/thiyagarajan_varadharajan_resume.pdf',
+      certificate: 'https://www.freecodecamp.org/certification/fcc-edfdfbb9-d263-42fc-bbd0-4c65f8ad70e1/scientific-computing-with-python-v7',
       description:
         'Comprehensive certification covering Python fundamentals, data structures, algorithms, and scientific computing libraries.',
       skills: ['Python', 'Data Structures', 'Algorithms', 'Scientific Computing']
@@ -19,7 +30,7 @@ export default function Certifications() {
       date: 'September 2025',
       hours: '9 hours 17 minutes',
       image: '/images/django.png',
-      certificate: '/documents/CertificateOfCompletion_Become a Django Developer.pdf',
+      certificate: 'https://www.linkedin.com/learning/certificates/47fba4c90c581105c5a7663d762416046fd736872e57f98e34871e49d27281ad',
       description:
         'Complete learning path covering Django framework, MVT architecture, ORM, REST APIs, and deployment strategies.',
       skills: ['Django', 'Python', 'REST APIs', 'Web Development']
@@ -30,7 +41,7 @@ export default function Certifications() {
       date: '2025',
       hours: null,
       image: '/images/genaicert.png',
-      certificate: null,
+      certificate: 'https://s3.ap-south-1.amazonaws.com/assets.growthschool.io/certificates/d4c624d0-cace-423e-823f-c18f659fea85_cert.pdf',
       description:
         'Advanced certification in Generative AI covering LLMs, prompt engineering, and AI application development.',
       skills: ['Generative AI', 'LLMs', 'Prompt Engineering', 'AI Development']
@@ -117,7 +128,7 @@ export default function Certifications() {
                       className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium text-sm"
                     >
                       <ExternalLink size={16} />
-                      View Certificate
+                      View credentials
                     </a>
                     <a
                       href={cert.certificate}
